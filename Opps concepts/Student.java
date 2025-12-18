@@ -31,19 +31,19 @@ public class Student{
    }
      }
 
- class Std{
-        int rlno;
-        String name;
-        float marks; //= 89.9f; //default value 
- Std(){
-this.rlno=28;
-    this.name="Kancharana";
-    this.marks=80.8f;
- }  
+//  class Std{
+//         int rlno;
+//         String name;
+//         float marks; //= 89.9f; //default value 
+//  Std(){
+// this.rlno=28;
+//     this.name="Kancharana";
+//     this.marks=80.8f;
+//  }  
  
-    void greeting() {
-        System.out.println("My name is Mani " + name);
+//     void greeting() {
+//         System.out.println("My name is Mani " + name);
 
- }
-}
+//  }
+// }
   
