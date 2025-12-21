@@ -1,10 +1,10 @@
 package DSA;
-
+// package menas folders
 // import java.lang.reflect.Array;
 
-public class Polindrome {
-    public static void main(String[] args) {     
-    String string ="abccb";
+public class Palindrome {
+    public static void CheckPalindrome() {     
+    String string ="abcdeedcba";
     int start =0;
     int end=string.length()-1;
 
