@@ -13,5 +13,11 @@ public class Human {// Blueprint
         this.gender= gender;
         this.salary=salary;
         Human.population++; // Incrementing population whenever an object is created  
+        //this.population++; this Not used for static variable it is used for instance variable
+    }
+
+    static void info(){ // static method
+        System.out.println(Human.population); // Accessing static variable using class name
+       // System.out.println(this.age); // it's shows error beacause  age is instence variable
     }
 }

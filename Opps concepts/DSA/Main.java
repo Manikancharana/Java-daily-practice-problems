@@ -8,7 +8,7 @@ public class Main {
         Human Hari= new Human(28,"Hari","Male",80000);
         Human Kavya= new Human(20,"Kavya","Female",40000);
 
-
+        
         System.out.println(mani.name);
         System.out.println(Hari.salary);
 
