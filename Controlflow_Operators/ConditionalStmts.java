@@ -34,7 +34,7 @@ public class ConditionalStmts {
    // switch (args) {
    //    case value1: statemts
    //       break;
-   //       case value2: statemts
+   //    case value2: statemts
    //       break;
    
    //    default:statemts
