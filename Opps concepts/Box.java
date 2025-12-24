@@ -1,6 +1,6 @@
 
 public class Box {
-    Double l;
+   private Double l; // L value access only this Class 
     Double w;
     Double h;
 
@@ -28,5 +28,6 @@ public class Box {
    }
    public void info(){
     System.out.println("Running box");
+    System.out.println(l);
    }
 }

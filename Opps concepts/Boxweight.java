@@ -6,6 +6,7 @@ public class Boxweight extends Box {
     }
     Boxweight (Double l,Double w, Double h , Double weight){
         super(l,w,h); // call parent class constructor 
+        // when the super class not used then the default constructor will call from the parent class
         // used values need to intilize in parent class 
         this.weight = weight;
     }
