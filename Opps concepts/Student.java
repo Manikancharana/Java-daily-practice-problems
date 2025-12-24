@@ -2,7 +2,14 @@ import java.util.Arrays;
 
 public class Student{
     public static void main(String[] args) {
-        
+        double num = (float)5.67;
+
+      String num1 =(num>5)? "Greaterthan 5" : "Lessthan 5"; // terenary operator, the stmts based on the datatype of the variable
+        System.out.println(num1);
+
+
+
+
     int[] rlno =new int[5];
     String[] name= new String[5];
     float[] marks = new float[5];
@@ -66,4 +73,3 @@ this.rlno=28;
    
 
 }
-  
