@@ -1,6 +1,4 @@
- package InheritenceTypes;
-
-import javax.sound.sampled.SourceDataLine;
+ package Inheritence;
 
 class Person{
          String name;
@@ -13,7 +11,7 @@ class Student extends Person{
      int rollNo ;
      void DisplyRollNo (){
         DisplyName();
-        System.out.println("Roll no :" +rollNo);
+        System.out.println("Roll no  :" +rollNo);
      }
 }
 

@@ -1,4 +1,4 @@
-package InheritenceTypes;
+package Inheritence;
     class Animal{       
     void sound(){
         System.out.println("Animals make sound");

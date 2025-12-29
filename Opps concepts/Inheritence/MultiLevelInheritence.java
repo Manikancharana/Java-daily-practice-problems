@@ -1,4 +1,4 @@
-package InheritenceTypes;
+package Inheritence;
 
 class College {
     String clgName = "Jntu-GV";
