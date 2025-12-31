@@ -5,9 +5,9 @@ public class Test {
         int a=5;
         double aa=a;
         System.out.println(aa);
-        //Explicit casting
         double x=24.54;
-        int y=(int)x;
+        int y=(int)x;         //Explicit casting
+
        System.out.println(y);
         
     }

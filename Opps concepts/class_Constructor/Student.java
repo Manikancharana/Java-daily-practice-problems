@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class Student{
     public static void main(String[] args) {
-        double num = (float)5.67;
+        double num = (float)5.67; 
+        System.out.println(num);
 
       String num1 =(num>5)? "Greaterthan 5" : "Lessthan 5"; // terenary operator, the stmts based on the datatype of the variable
         System.out.println(num1);
@@ -62,7 +63,7 @@ this.rlno=28;
 
  }
     void greeting() {
-        // System.out.println("My name is Mani " + name);
+        System.out.println("My name is Mani " + name);
 
  }
  void Namechange( String name){ 

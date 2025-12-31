@@ -1,9 +1,8 @@
 package DSA;
 // package menas folders
-// import java.lang.reflect.Array;
 
 public class Palindrome {
-    public static void CheckPalindrome() {     
+    public static void checkPalindrome() {     
     String string ="abcdeedcba";
     int start =0;
     int end=string.length()-1;
@@ -19,5 +18,5 @@ public class Palindrome {
         end--;
     }
     System.out.println(ispolindrome? "Ispolindrome ":"Is not a polidrome" );
- }
+ } // access in Sorting array
 }

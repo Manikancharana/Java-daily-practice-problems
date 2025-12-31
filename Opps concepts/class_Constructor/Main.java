@@ -13,7 +13,8 @@ public class Main {
         // we can access values in super()
 
 
-       // Boxweight box4 =new Box();  //Box con't acces the Boxweight properties
-
+       Boxweight box4 =new Boxweight();  //Box con't acces the Boxweight properties
+       box4.setA(280);
+      System.out.println("Getter method..."+box4.getA());
     }
 }
