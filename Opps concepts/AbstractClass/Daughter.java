@@ -1,6 +1,6 @@
 package AbstractClass;
 
-public abstract class Daughter extends Parent{
+public  class Daughter extends Parent{
 
     @Override
     void career(String name) {
