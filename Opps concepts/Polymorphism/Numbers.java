@@ -23,7 +23,7 @@ public class Numbers {
         numr.Sum(a);
 
          System.out.println("Combination of to strings :"+numr.Sum("Mani","Aadhya"));
-       System.out.println("Sum :"+ numr.Sum(25, 28));
+       System.out.println("Sum :"+ numr.Sum(a, 28));
         }
 }
 

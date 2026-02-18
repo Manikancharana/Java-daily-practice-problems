@@ -12,6 +12,7 @@ class Branch extends College{ // Brach class only access the College class
 }
 
 class Rank extends Branch{  // Rank class access all properties of Branch and college classes
+    int a=clgRanking;
     int it=10000;
     int ece =12000;
     int mech =30000;

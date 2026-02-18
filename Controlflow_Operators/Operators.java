@@ -12,8 +12,8 @@ public class Operators {
         // System.out.println("Post increment "+(x++));
         // System.out.println(x);
         // System.out.println("Pre increment  "+(--x));
-        // System.out.println(x++ + ++x); // O/P 85+87 =172
-        // System.out.println(x++ + x++); //O/P 171
+        System.out.println(x++ + ++x); // O/P 85+87 =172
+        System.out.println(x++ + x++); //O/P 87+88= 175
 
       //Relational operators ==, =>, =<, >, <, !=
     //   System.out.println(x>y);

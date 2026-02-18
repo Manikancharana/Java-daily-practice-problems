@@ -8,6 +8,6 @@ public class Son extends Parent{
     }
     @Override
     void patner(String name , int age){
-        System.out.println(name+" is bestfrienc" + "He is" +age);
+        System.out.println(name+" is my bestfriend" + " & He is" +age);
     }
 }
