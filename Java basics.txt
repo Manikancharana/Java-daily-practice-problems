@@ -2,3 +2,11 @@ JAVA PROGRAMMING
 
 Basic concepts of java vth detail explanation : https://chatgpt.com/share/6996b1ed-3418-8013-b2e4-a97f3d0cfa13
  
+ ArrayList is :  ArrayList internally uses a dynamic array. When the array becomes full, 
+                 it creates a new array with 1.5x capacity and copies old elements. It provides O(1) access using index 
+                 but insertion/deletion in middle takes O(n) due to shifting.
+   Declaration : ArrayList<Integer> arraylist = new ArrayList<>();
+
+
+   Differecnce b/t CustomArrayList and ArrayList : "A custom ArrayList is manually implemented using arrays and resizing logic, mainly for learning purposes. 
+   Java’s ArrayList is a fully optimized, generic, dynamic array implementation that provides many built-in methods and handles resizing internally."

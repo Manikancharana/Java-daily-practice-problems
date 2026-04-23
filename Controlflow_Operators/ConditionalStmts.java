@@ -1,28 +1,28 @@
 import java.util.Scanner;
 public class ConditionalStmts {
     public static void main(String[] args) {
-   //   Scanner sc =new Scanner(System.in);
-   //   System.out.println("Enter your Bill amount.");
-   //   int amount=sc.nextInt();
-   //   if(amount>1000){
-   //      System.out.println("Offer valid!....");
-   //   }
-   //   else{
-   //      System.out.println("Offer not valid!");
-   //   }
+     Scanner sc =new Scanner(System.in);
+     System.out.println("Enter your Bill amount.");
+     int amount=sc.nextInt();
+    //  if(amount>1000){
+    //     System.out.println("Offer valid!....");
+    //  }
+    //  else{
+    //     System.out.println("Offer not valid!");
+    //  }
 
-//    if (amount < 1000) {
-//     System.out.println("Offer not valid!");
-// }
-// else if (amount >= 1000 && amount < 1500) {
-//     System.out.println("50% Discount");
-// }
-// else if (amount >= 1500) {
-//     System.out.println("80% Discount");
-// }
-// else {
-//     System.out.println("Purchase anything you want in the store");
-// }
+   if (amount < 1000) {
+    System.out.println("Offer not valid!");
+}
+else if (amount >= 1000 && amount < 1500) {
+    System.out.println("50% Discount");
+}
+else if (amount >= 1500) {
+    System.out.println("80% Discount");
+}
+else {
+    System.out.println("Purchase anything you want in the store");
+}
  
 //ternary operator variable=condition ? value_if_true : value_if_false 
 
@@ -62,6 +62,6 @@ public class ConditionalStmts {
 
 
 
-//   sc.close();
+  sc.close();
     }
 }
