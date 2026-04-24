@@ -1,3 +1,4 @@
+package Practice;
 import java.util.Arrays;
 public class SecMax {
     // method 1
