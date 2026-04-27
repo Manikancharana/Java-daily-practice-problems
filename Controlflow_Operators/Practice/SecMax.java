@@ -33,22 +33,22 @@ public class SecMax {
 
 
 // method 2 (best method) two variable method 
-//    public static void main(String[] args){
-//     int [] arr = {5,6,1,8,7,6,2,9};
-//     int max=Integer.MIN_VALUE;
-//     int secmax= Integer.MIN_VALUE;   
-//     for(int num: arr){
-//         if(num>max){
-//             secmax= max;
-//             max= num;
-//         }
-//         else if(num>secmax && num!= max){
-//             secmax=num;
+   public static void main(String[] args){
+    int [] arr = {5,6,1,8,7,6,2,9};
+    int max=Integer.MIN_VALUE;
+    int secmax= Integer.MIN_VALUE;   
+    for(int num: arr){
+        if(num>max){
+            secmax= max;
+            max= num;
+        }
+        else if(num>secmax && num!= max){
+            secmax=num;
 
-//         }
-//     }
-//     System.out.println("Second maximum is " + secmax);
-// }
+        }
+    }
+    System.out.println("Second maximum is " + secmax);
+}
 
 
 
@@ -56,10 +56,10 @@ public class SecMax {
 
 
 // method 3 
-public static void main(String[] args){
-    int [] arr = {5,7,65,2,4,33,58,6,1};
-    int n=arr.length;
-    Arrays.sort(arr);
-    System.out.println("Secondmax is "+ arr[n-2]);
-}
+// public static void main(String[] args){
+//     int [] arr = {5,7,65,2,4,33,58,6,1};
+//     int n=arr.length;
+//     Arrays.sort(arr);
+//     System.out.println("Secondmax is "+ arr[n-2]);
+// }
 }
